@@ -3,7 +3,7 @@ import pytest
 from selenium import webdriver
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def browser():
     b = webdriver.Chrome('../chromedriver')
     b.implicitly_wait(5)

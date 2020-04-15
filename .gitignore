@@ -1,4 +1,10 @@
+# Custom settings:
+
 .DS_Store
+.idea
+
+
+
 
 
 # Settings provided by github:
